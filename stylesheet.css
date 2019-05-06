@@ -1,0 +1,215 @@
+body{
+    margin: 0 auto;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+p{
+    color: #b3aeb5;
+}
+
+h2{
+    width:80%;
+    margin:0 auto;
+    border-bottom:3px solid #5186A5; 
+    font-weight: normal;
+    color: #5f5d60;
+}
+
+.container{
+    padding: 20px 0px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #5186A5;
+    opacity: 0.7;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
+
+.header-left {
+    width: 100%;
+    float: left;
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+li{
+    width: 100%;
+    display: inline;
+    list-style: none;
+    padding-left: 10px;
+}
+
+a{
+    color: white;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://www.pakutaso.com/shared/img/thumb/togitsuFTHG0742_TP_V.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper h1{
+    font-size: 35px;
+    background-color: rgba(34, 49, 52, 0.6);
+    letter-spacing: 3px;
+}
+
+.top-wrapper p{
+    font-size: 20px;
+    color: white;
+}
+
+.main-wrapper {
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+span{ 
+    display: block;
+    width: 70%;
+    margin: 20px auto;
+    color: #b3aeb5; 
+}
+
+.contents{
+    overflow: hidden;
+}
+
+.content {
+    float: left;
+    width: 33%;
+}
+
+@media (max-width:530px){
+    .content {
+        width: 100%;
+    }
+}
+
+.contents-icon {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.contents-icon img{
+    height: 200px;
+    width: 200px;
+}
+
+.contents-icon p {
+    position: absolute;
+    top: 80px;
+    width: 85%;
+    color: white;
+}
+
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.opinions{
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(34, 49, 52, 0.4);
+    margin: auto;
+}
+
+.opinion{
+    background-color: #f7f7f7;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 10px auto;
+}
+
+@media(min-width:530px){
+    .opinion{
+        width: 49%;
+        float: left;
+        margin: 10px 0px 20px 5px;
+        background-color: #f7f7f7;
+    }
+    
+}
+
+i{
+    margin: 20px;
+    color: #5186A5;
+}
+
+label{
+    display: block;
+    text-align: center:
+}
+
+.opinion p{
+    vertical-align: middle;
+    margin: 20px;
+}
+
+.products{
+    margin-top: 30px;
+    clear: both;
+    display: inline-block;
+    color: #b3aeb5;
+}
+
+.slider{
+    overflow: visible;
+    margin:0 auto;
+    height: 250px;
+    display: inline-block;
+}
+
+.slide{
+    width: 80vw;
+}
+
+.slide p{
+    width: 100%;
+    line-height: 50px;
+    background-color: #536CAA;
+    color: white;
+}
+
+.button{
+    text-align: center;
+}
+
+footer {
+    height: 10%;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #5186A5;
+    opacity: 0.7;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+table{
+    margin: auto;
+    width: 70%;
+}
